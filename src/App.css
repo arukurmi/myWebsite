@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+body{
+  font-family: "Crimson Text" sans-serif;
+}
+
+:root{
+  --white: #fff;
+}
+
+
 .App {
   text-align: center;
 }
@@ -37,11 +49,23 @@
   }
 }
 
-
 /****************** navbar ***********************/
 
+nav a.nav-link {
+  font-size: 0.8rem;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
 
+nav ul li{
+  text-transform: uppercase;
+}
 
+.navbar-nav >li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--white) !important;
+}
 
 
 
