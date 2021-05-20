@@ -49,23 +49,36 @@ body{
   }
 }
 
+
+
 /****************** navbar ***********************/
 
+
+.logo {
+  width: 8.5rem;
+  border-radius: 35%;
+  margin-right: 2.5rem;
+}
+
+
 nav a.nav-link {
-  font-size: 0.8rem;
   letter-spacing: 0.6px;
   cursor: pointer;
 }
 
 nav ul li{
   text-transform: uppercase;
-}
+} 
 
 .navbar-nav >li > a{
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
   color: var(--white) !important;
 }
 
-
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 3.75rem !important;
+}
 
